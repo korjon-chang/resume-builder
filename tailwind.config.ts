@@ -5,7 +5,15 @@ export default {
 	content: ['./src/**/*.{html,js,svelte,ts}'],
 
 	theme: {
-		extend: {}
+		extend: {
+			colors: {
+				olive: '#606C38', // Name it "olive" for easier reference
+				forest: '#283618',
+				cream: '#FEFAE0',
+				peach: '#DDA15E',
+				rust: '#BC6C25'
+			}
+		}
 	},
 
 	plugins: [forms]

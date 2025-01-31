@@ -1,2 +1,10 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
+<div class=" flex h-screen items-center justify-center bg-cream">
+	<div class="flex flex-col items-center">
+		<h1 class="font-md text-center text-4xl">Welcome to the resume builder</h1>
+		<a
+			href="/build"
+			class="w-fit rounded-3xl border-solid bg-olive p-5 text-center font-bold text-white hover:bg-forest"
+			>Start Building</a
+		>
+	</div>
+</div>
