@@ -1,4 +1,4 @@
-<div class=" flex h-screen items-center justify-center bg-cream">
+<div class=" flex h-screen items-center justify-center">
 	<div class="flex flex-col items-center">
 		<h1 class="font-md text-center text-4xl">Welcome to the resume builder</h1>
 		<a
