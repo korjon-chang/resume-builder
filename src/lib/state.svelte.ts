@@ -1,12 +1,13 @@
-export const formState = $state({
+import type { FormData } from "./helpers/types";
+export const formState = $state<FormData>({
 	personalInfo: {
 		firstName: '',
 		lastName: '',
-		summary: '',
+		summary: undefined,
 		email: '',
 		phoneNumber: '',
-		linkedin: '',
-		portfolio: ''
+		linkedin: undefined,
+		portfolio: undefined
 	},
 	education: [],
 	experience: [],

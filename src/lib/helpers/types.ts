@@ -29,3 +29,10 @@ export interface Skills {
 	skillType: string;
 	skillList: string[];
 }
+
+export interface FormData {
+	personalInfo: PersonalInfo;
+	education: Education[];
+	experience: Experience[];
+	skills: Skills[];
+}

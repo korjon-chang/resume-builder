@@ -5,7 +5,7 @@
 	let { children } = $props();
 </script>
 
-<Nav />
-<div class="bg-cream">
+<div class="flex h-screen flex-col overflow-hidden">
+	<Nav />
 	{@render children()}
 </div>
