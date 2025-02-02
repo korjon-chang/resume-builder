@@ -11,7 +11,7 @@ export interface Experience {
 	endDate: string;
 	country: string;
 	city: string;
-	desciption: string[];
+	description: string[];
 }
 
 /** Type for the personal information section */
