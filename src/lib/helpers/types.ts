@@ -1,7 +1,7 @@
 export interface Education {
 	school: string;
 	degree: string;
-	endYear: string;
+	graduationDate: string;
 }
 
 export interface Experience {
@@ -26,7 +26,7 @@ export interface PersonalInfo {
 }
 
 export interface Skills {
-	skillType: string;
+	skillCategory: string;
 	skillList: string[];
 }
 
