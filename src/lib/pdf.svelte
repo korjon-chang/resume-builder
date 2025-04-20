@@ -1,9 +1,19 @@
 <script lang="ts">
 	import { formState } from '$lib/state.svelte';
+
+	let scale = 1;
+	let wrapper;
+
+	function updateScale(){
+
+		if(wrapper){
+			scale = wrapper.clientWidth / 793;
+		}
+	}
 </script>
 
 <div class="flex h-full w-full overflow-auto">
-	<div class="m-auto h-[1123px] w-[793px] bg-white p-2">
+	<div id="content" class="m-auto h-[1123px] w-[793px] bg-white p-2">
 		<h1 class="text-3xl font-bold">{formState.personalInfo.firstName}</h1>
 		<p class="text-lg">Web Developer | john.doe@example.com</p>
 
