@@ -3,7 +3,7 @@
 	import Education from '$lib/tabs/educationTab.svelte';
 	import Experience from '$lib/tabs/experienceTab.svelte';
 	import Skills from '$lib/tabs/skillsTab.svelte';
-	import PDF from '$lib/pdf.svelte';
+	import Preview from '$lib/preview.svelte';
 
 	import clsx from 'clsx';
 
@@ -78,8 +78,8 @@
 		</div>
 	</aside>
 
-	<!-- Preview Pane (Optional) -->
+	<!-- Preview Pane -->
 	<aside class="w-1/2 overflow-auto bg-gray-100">
-		<PDF />
+		<Preview />
 	</aside>
 </div>
